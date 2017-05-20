@@ -1,4 +1,4 @@
-# electron-quick-start
+# electron-demo-startkit
 
 **Clone and run for a quick way to see Electron in action.**
 
@@ -37,6 +37,17 @@ npm install electron-packager -g
 ```bash
 electron-packager source --out dest
 ```
+## How to generate doc
+```bash
+npm install -g doxmate  // dox standard
+```
+
+## Generate doc
+```bash
+doxmate build
+```
+
+
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
