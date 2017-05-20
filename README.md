@@ -35,7 +35,7 @@ npm install electron-packager -g
 
 ## How to package
 ```bash
-electron-packager source --out dest
+electron-packager source --out dest // source represent project position dest represent dest folder
 ```
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
